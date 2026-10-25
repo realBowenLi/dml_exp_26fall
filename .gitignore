@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# LaTeX 编译产物（latexmkrc 已将辅助文件输出到 build/，此处兜底）
+build/
+*.aux
+*.fls
+*.fdb_latexmk
+*.toc
+*.xdv
+*.out
+*.log
+missfont.log
+
+# Python
+__pycache__/
+*.pyc
+
+# 实验运行产物（MNIST 数据集、profiler 输出）
+data/
+log/
